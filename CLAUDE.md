@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Bruno SEZNEC
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Bruno SEZNEC, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,108 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Bruno SEZNEC
+- **Location:** Kercambre, Saint-Gildas de Rhuys (Bretagne) | Boulogne-Billancourt (Île-de-France)
+- **Also acceptable:** Nantes (44) — within commute range of the Bretagne base
+- **Phone:** +33 6 51.86.57.21
+- **Email:** brunoconsult@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/brunoseznec/
+- **GitHub:** https://github.com/brunosez | **HuggingFace:** https://huggingface.co/bruno16
+- **Languages:** Français (natif), Anglais (B1-B2 professionnel), Allemand (notions)
+- **Status:** Consultant indépendant, disponible immédiatement — TJM 600–800€
+- **Constraints:** Remote-first (deux bases : Bretagne et Île-de-France, Nantes acceptable) ; mobilité France entière
+- **LinkedIn headline:** "Senior Consultant Based in Paris & Vannes | Generative AI & RAG Systems | Data Quality & Governance | PyTorch • TensorFlow • LangChain | Open Meta Data • Great Expectations | Mathematician"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Ingénieur Civil des Mines** (1981–1984) — École des Mines de Saint-Étienne, option Informatique
+- **DEA Calcul Scientifique & Analyse Numérique** (1986–1987) — Université Jean Monnet Saint-Étienne / Lyon
+- **Master 2 Mathématiques Fondamentales** (2005–2006) — Université Paris 7 (Denis Diderot)
+- **Agrégé de Mathématiques** (Former) — prestigious national competitive teaching qualification
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **RAG Expert (Consultant IA)** (Sep 2025 – Dec 2025) — **Banque d'Investissement** (Paris)
+  - RAG on-premise: hybrid retrieval, 5,000 docs indexed, bge-m3 embeddings, RAGAS evaluation
+  - LLMs: GPT-OSS-120B, Mistral-Medium/Devstral; stack: Langchain, PgVector, Langfuse
+  - MVP opérationnel en 3 mois; conformité on-premise et mitigation des hallucinations résolues
+
+- **Data Consultant** (Apr 2025 – present) — **Geosciences, société confidentielle Suisse** (full remote, 1/4 temps)
+  - PostgreSQL optimisation; POCs Airflow, Vanna.ai Text-to-SQL (–40% temps requêtes), OpenMetadata, Kestra
+
+- **Colleur de Mathématiques** (2024–2025) — **Rectorat de Paris** (MPSI, MPI)
+
+- **Projet personnel RAG** (2023–2025) — Demo publique HuggingFace, stack Langchain/ChromaDB/Gradio
+
+- **Data Engineer / Data Quality / MLOps** (Jul 2022 – Aug 2023) — **CRIGEN (@ENGIE R&D)** (Paris)
+  - Data pipelines (time series + NLP), Data Quality –30% incidents, Data Catalog (OpenMetadata)
+  - Stack: Kubernetes, Kubeflow, Dataiku-DSS, Airflow, Kafka, PySpark, DVC, Great Expectations
+
+- **Data Engineer** (Jan–Mar 2022) — **Le Point** (Paris)
+  - Audit data Marketing Digital : 23 quick-wins, économies 150K€/an, roadmap Data Gouvernance
+
+- **Senior Consultant Data** (Jul–Nov 2021) — **EVA GROUP / Sopra Steria** (Paris)
+  - Conception des offres forfait Data Governance & Audit et MLOps; speaker Salon Big Data & IA 2021
+
+- **Référent Data Science** (Apr 2019 – Jan 2020) — **Thales Services** (Paris)
+  - Stack ML/DL pour Military Digital Stack (3 GBUs Thales); formations; POC MLFlow
+
+- **Data Engineer / Architecte Data** (Mar–Dec 2018) — **Renault** (Paris)
+  - Projet R3 supply-chain Alliance Renault-Nissan; Hadoop Hortonworks, PySpark, Elasticsearch
+
+- **Senior Data Scientist / Data Engineer** (Jul 2017 – Feb 2018) — **HSD/RelevanC** (Paris)
+  - Data Lake MapR Groupe Casino (10M+ clients); segmentation RFM, K-Means, Word2Vec+RNN GPU
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, LLM Engineering (Langchain, LlamaIndex, RAGAS, Langfuse), RAG Systems (PgVector, ChromaDB, FAISS, Qdrant), GenAI (GPT-4/OSS, Claude, Mistral, Llama), Prompt Engineering
+- **Secondary:** Data Engineering (Spark/PySpark, Airflow, Kafka, Hadoop, Nifi), MLOps (Kubeflow, MLflow, DVC, Dataiku-DSS), Data Quality (Great Expectations), Data Catalog (OpenMetadata, DataHub, Collibra), ML/DL (scikit-learn, PyTorch, TensorFlow, XGBoost, HuggingFace)
+- **Domain:** Generative AI & RAG Systems, Data Quality & Governance, Big Data Architecture, MLOps, NLP
+- **Cloud & Infra:** GCP (BigQuery), AWS, Databricks, Docker, Kubernetes, FastAPI, Streamlit, Gradio
+- **Databases:** PostgreSQL, Oracle, MongoDB, Elasticsearch, Cassandra, Neo4J, Janus Graph
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Deep Learning Summer School** — Warsaw, 2019 (5 days)
+- **Coursera ML in Production** — 4 courses, 2021
+- **edX:** Introduction to Big Data with Apache Spark; Scalable Machine Learning
+- **Retrieval Augmented Generation (RAG)** — LinkedIn certification
+- **ITIL V3 Foundation** — 2010
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- "Concevoir un site web" — cours donné à l'IGPDE (Ministère de l'Économie)
+- "Sensibilisation au web sémantique" — cours donné à l'IGPDE
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- **Speaker** — Salon Big Data & IA 2021, Paris
+- **EcoTrail de Paris 45km** — 2024
+- **Co-organiser** — Paris Kaggle meetup (2014–2016)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **POC/MVP delivery focus** — energised by ambiguous, exploratory missions (1–6 months); quick to prototype and validate before scaling
+- **Knowledge transfer** — recurring pedagogy thread: Colleur de Maths, IGPDE trainer, Thales formations, conference speaker; explains complex technical concepts to varied audiences
+- **Independent operator** — 10+ years freelance; self-manages client pipeline and delivery without corporate layer
+- **Strengths:** RAG architecture, data quality frameworks, bridging technical and business, fast delivery under constraint, cross-sector versatility
+- **Growth areas:** English fluency (B1-B2 — functional but not bilingual); long-term engagement positioning (emphasise ENGIE 13 months, Thales 9 months for CDI roles)
+- **Thrives in:** Remote-first, technically literate teams, autonomy to make technical choices, roles with a teaching or knowledge-transfer component
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Deploying production GenAI / RAG systems that solve real enterprise problems
+- Data Quality and Governance — making data trustworthy at scale
+- Knowledge transfer: training, enablement, and making complex AI concepts accessible
+- Exploring Semantic Web and Knowledge Graphs (active 2025 investment)
+- Cross-sector technical consulting (banking, energy, geosciences, defence, retail)
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Generative AI / LLM:** Enterprise software vendors, AI consultancies, innovation labs in large groups
+- **Energy / Industry:** ENGIE, TotalEnergies, EDF, Dalkia, Veolia and their technology subsidiaries
+- **Banking / Finance:** Investment banks, fintechs, asset managers with data/AI initiatives
+- **Defence / Aerospace:** Thales, Airbus, Safran (data science and MLOps angle)
+- **Consulting:** Data & AI practices at Sopra Steria, Capgemini, Wavestone, Sia Partners
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Requires relocation (no move outside Bretagne/Île-de-France/Nantes footprint)
+- CDI requiring full-time on-site attendance (remote-first is a firm preference)
+- Rate below 600€ TJM for independent missions
+- Roles requiring fluent/bilingual English as the primary daily working language
+- Pure maintenance/support roles with no development, POC, or knowledge-transfer component
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

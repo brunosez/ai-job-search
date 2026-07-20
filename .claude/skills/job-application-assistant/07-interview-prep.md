@@ -8,32 +8,69 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Stubs extracted by /setup from CV and LinkedIn. Fill in S/T/A/R details before using in interviews. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. RAG on-premise — Banque d'Investissement (GenAI delivery under constraints)
+**Source:** CV / LinkedIn — Sep–Dec 2025
+**What happened:** Deployed a production RAG system on-premise for financial document analysis; 5,000 documents indexed; MVP in 3 months.
+**Why it matters:** Answers "Tell me about a GenAI project you've delivered end-to-end", "How do you handle data privacy constraints in AI projects", "Describe a time you delivered under time pressure"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: MVP operational in 3 months; hybrid retrieval (semantic + keyword); on-premise compliance constraints resolved; hallucination mitigation implemented
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Text-to-SQL — Geosciences Swiss company (democratising data access)
+**Source:** CV / LinkedIn — Apr 2025–present
+**What happened:** POC Vanna.ai on a PostgreSQL database with 50 tables; reduced query conception time by 40% for power users.
+**Why it matters:** Answers "Tell me about a time you made data accessible to non-technical users", "Describe a POC you ran and what you learned", "Have you worked with LLM-powered SQL tools?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: –40% query conception time for power users; SQL generated automatically; identified precision limits (fine-tuning needed for complex queries)
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Data Catalog & Data Quality — ENGIE CRIGEN (reducing data incidents at scale)
+**Source:** CV / LinkedIn — Jul 2022–Aug 2023
+**What happened:** Implemented data quality pipelines and Data Catalog (OpenMetadata) for ENGIE R&D; reduced data quality incidents by 30%.
+**Why it matters:** Answers "Describe a time you improved data quality at scale", "Have you implemented a Data Catalog?", "Tell me about a long-term technical engagement"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: –30% data quality incidents; Data Catalog POC validated with OpenMetadata; time series and NLP pipelines operational on Kubernetes
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Data Audit — Le Point (fast value delivery)
+**Source:** CV — Jan–Mar 2022
+**What happened:** 3-month data audit of Le Point's digital/marketing department; identified 23 quick-wins and a €150K/year savings roadmap.
+**Why it matters:** Answers "Tell me about a time you delivered rapid value", "Describe a structured audit you conducted", "How do you prioritise recommendations to a non-technical audience?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: 23 quick-wins identified; €150K/year savings roadmap; Data Governance and Data Quality framework proposed; web analytics migration prepared
+
+### 5. Casino/RelevanC Data Lake (large-scale data engineering)
+**Source:** CV / LinkedIn — Jul 2017–Feb 2018
+**What happened:** Built a MapR Data Lake for Groupe Casino's 10M+ customer base; customer segmentation using RFM, K-Means, Word2Vec + RNN.
+**Why it matters:** Answers "Describe a large-scale data engineering project", "Tell me about ML you've applied to customer data", "Have you worked with Hadoop/Spark at scale?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: Data Lake operational with 3 years of raw POS data ingested and parqueted; customer segmentation models deployed; Elasticsearch set up for querying
+
+### 6. Thales Military Digital Stack (training & technical enablement)
+**Source:** CV / LinkedIn — Apr 2019–Jan 2020
+**What happened:** Established the ML/DL library stack across 3 Thales GBUs on the Military Digital Stack; authored and delivered training programmes; POC MLFlow.
+**Why it matters:** Answers "Tell me about a time you drove technical adoption across an organisation", "Describe your experience delivering technical training", "Have you worked in a defence/regulated environment?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: ML/DL stack validated and adopted by 3 GBUs; training programmes delivered; Zeppelin notebooks improved; MLFlow POC completed
 
 ## Common Tough Questions
 

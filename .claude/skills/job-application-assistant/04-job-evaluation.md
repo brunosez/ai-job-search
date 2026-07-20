@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Generative AI / RAG systems, LLM Engineering (Langchain, LlamaIndex, RAGAS), Data Engineering (Spark/PySpark, Airflow, Kafka, Hadoop), Data Quality & Governance (Great Expectations, OpenMetadata, DataHub), MLOps (Kubeflow, Langfuse, DVC, Dataiku-DSS), PostgreSQL, Python, Kubernetes/Docker
+**Moderate match areas:** Full ML/DL model development (PyTorch, TensorFlow), Enterprise Architecture (TOGAF, SOA), Data Visualisation (Tableau, Kibana, Spotfire), Cloud (GCP, AWS), Text-to-SQL (Vanna.ai)
+**Weak match areas:** Pure DevOps/SRE, product management, mobile/frontend development, SAP/ERP implementation, roles requiring fluent English as daily working language
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** RAG/LLM implementation (Investment Bank 2025, personal project 2023-2025), Data Engineering (ENGIE CRIGEN 2022-2023, Renault 2018, Casino/RelevanC 2017-2018), Data Quality & Audit (Le Point 2022, ENGIE 2022-2023), Data Science/ML (Thales 2019, Bio-Mérieux 2020, RelevanC 2017-2018), Big Data Architecture (Dalkia 2017, Geosciences 2025)
+**Moderate:** MLOps pipeline design, Data Catalog implementation, training programme delivery, enterprise architecture (Ministère de l'Économie 2008-2014)
+**Entry-level:** Pure SRE/DevOps, B2C product management (last seen 2001-2008 in Intershop/CMS era)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -63,19 +63,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Continue as an independent consultant in Generative AI / RAG and Data Quality/Governance
+- Build a strong track record of production RAG deployments (beyond MVP stage)
+- Develop the Data Catalog / Semantic Web / Knowledge Graph angle (2025 training investment)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: RAG architecture and implementation, data quality frameworks, knowledge transfer/training, POC-to-MVP delivery, cross-sector technical consulting
+- Tasks that drain: pure production maintenance/support, long bureaucratic approval cycles, roles with no hands-on technical component, pure coordination without implementation
+- Non-task factors: autonomy to make technical choices, remote-first culture, technically literate colleagues
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Independent consultant with TJM 600–800€; target missions should meet or exceed this rate
+- **Flexibility**: Remote-first strongly preferred; two bases (Brittany and Île-de-France) plus Nantes (commute range of the Brittany base); occasional on-site acceptable
+- **Professional development**: Prioritise missions that add to the GenAI / RAG track record or deepen Knowledge Graph / Semantic Web expertise
 
 ### 6. Salary Benchmark (Optional)
 
