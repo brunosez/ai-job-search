@@ -13,8 +13,8 @@
 % Force both first and last name AND section headings to render in moderncv
 % blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
 % looks inconsistent with the rest of the blue accent scheme.
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\firstnamestyle}[1]{{\huge\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\huge\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
@@ -24,18 +24,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Bruno SEZNEC - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Bruno}{SEZNEC}
+\address{Boulogne-Billancourt / Saint-Gildas de Rhuys}{}{}
+\phone[mobile]{+33 6 51.86.57.21}
+\email{brunoconsult@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/brunoseznec/}{LinkedIn}, \href{https://github.com/brunosez}{GitHub}}
 
 \begin{document}
 
@@ -46,25 +46,25 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{[Tailor this profile statement per role — see .claude/skills/job-application-assistant/05-cv-templates.md for the three templates (GenAI/RAG, Data Architecture, Data Engineer).]}
 
 % ============================================================
 %     CORE COMPETENCIES
 % ============================================================
 
-\section{Core Competencies}
+\section{Compétences clés}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{IA Générative \& RAG}: Langchain, LlamaIndex, PgVector, ChromaDB, FAISS, Qdrant, bge-m3, OpenAI Ada-002, RAGAS, Langfuse, GPT-4/OSS, Claude, Mistral, Llama2/3 ; prompt engineering, hybrid retrieval, reranking
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Data Engineering}: Python/PySpark, Airflow, Kafka, Hadoop (MapR, Hortonworks), Nifi, Great Expectations, Dataiku-DSS, DVC, PostgreSQL, Elasticsearch
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Data Catalog \& Gouvernance}: OpenMetadata, DataHub, Data Galaxy, Collibra, Zeenea ; UML, BPMN, OWL
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{MLOps \& Cloud}: Kubeflow, MLflow, Docker, Kubernetes, GCP (BigQuery), AWS, Databricks, FastAPI, Streamlit, Gradio
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{ML / Deep Learning}: scikit-learn, pandas, PyTorch/fastai, TensorFlow/Keras, XGBoost/LightGBM, HuggingFace Transformers, Spark ML
 
 \end{itemize}
 
@@ -72,36 +72,57 @@
 %     PROFESSIONAL EXPERIENCE
 % ============================================================
 
-\section{Professional Experience}
+\section{Expériences professionnelles}
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Sep--Déc 2025}{RAG Expert (Consultant IA)}{Banque d'Investissement}{Paris}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item RAG on-premise : retriever hybride (sémantique + keyword), \textbf{5 000 documents} indexés, chunking optimisé
+    \item LLMs : GPT-OSS-120B, Mistral-Medium, Mistral-Devstral (génération de code)
+    \item Stack : Langchain, PgVector, embeddings bge-m3, RAGAS, Langfuse ; conformité on-premise assurée
+    \item MVP opérationnel en 3 mois ; architecture scalable validée ; hallucination mitigation implémentée
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Avr 2025--présent}{Consultant Data}{Geosciences (société confidentielle Suisse)}{Full remote, 1/4 temps}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Optimisation PostgreSQL pour workloads data quality
+    \item POCs : Airflow, Vanna.ai Text-to-SQL (\textbf{--40\% temps conception requêtes}, 50 tables), OpenMetadata, Kestra
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Juil 2022--Août 2023}{Data Engineer / Data Quality / MLOps}{CRIGEN (@ENGIE R\&D)}{Paris}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Pipelines d'ingestion données tabulaires (séries temporelles) et textuelles ; \textbf{--30\% incidents data quality}
+    \item Data Catalog (OpenMetadata, DataHub) ; POC Great Expectations
+    \item Stack : Kubernetes, Kubeflow, Dataiku-DSS, Airflow, Kafka, PySpark, DVC, Collibra, Data Galaxy
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jan--Mars 2022}{Data Engineer}{Le Point}{Paris}{}{\vspace{1pt}
+\begin{itemize}
+    \item Audit data Marketing Digital : \textbf{23 quick-wins}, \textbf{150K€/an} d'économies identifiées
+    \item Roadmap Data Gouvernance et Data Quality ; préparation migration Web Analytics
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Avr 2019--Jan 2020}{Référent Data Science}{Thales Services}{Paris}{}{\vspace{1pt}
+\begin{itemize}
+    \item Socle ML/DL sur la Military Digital Stack (3 GBUs Thales) ; formations rédigées et animées
+    \item Stack : Hadoop HDP, PySpark, scikit-learn, XGBoost/LightGBM, Elasticsearch, Janus Graph ; POC MLFlow
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Juil 2017--Fév 2018}{Senior Data Scientist / Data Engineer}{HSD/RelevanC}{Paris}{}{\vspace{1pt}
+\begin{itemize}
+    \item Data Lake MapR groupe Casino (\textbf{10M+ clients}) ; segmentation RFM, K-Means, Word2Vec + RNN (GPU)
+    \item Stack : MapR/Hadoop, PySpark, MLlib, scikit-learn, TensorFlow, Keras, Docker, GPU Nvidia
 \end{itemize}}}
 
 \end{itemize}
@@ -110,19 +131,19 @@
 %     EDUCATION
 % ============================================================
 
-\section{Education}
+\section{Formation}
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+\item{\cventry{2005--2006}{Master 2 Mathématiques Fondamentales}{Université Paris 7 (Denis Diderot)}{Paris}{}{}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{1986--1987}{DEA Calcul Scientifique \& Analyse Numérique}{Université Jean Monnet Saint-Étienne / Lyon}{Saint-Étienne}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{1981--1984}{Ingénieur Civil des Mines}{École des Mines de Saint-Étienne}{Saint-Étienne}{}{Option Informatique}}
 
 \end{itemize}
 
@@ -130,10 +151,10 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 %     LANGUAGES
 % ============================================================
 
-\section{Languages}
+\section{Langues}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Français (natif), Anglais (B1-B2, professionnel), Allemand (notions).
 \end{itemize}
 
 % ============================================================

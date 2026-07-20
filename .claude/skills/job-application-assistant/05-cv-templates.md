@@ -28,8 +28,8 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
 % Force both first and last name AND section headings to render in moderncv
 % blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
 % looks inconsistent with the rest of the blue accent scheme.
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\firstnamestyle}[1]{{\huge\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\huge\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
@@ -106,11 +106,17 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Generative AI / RAG / LLM Engineering roles:**
+> Expert IA Générative avec 3 ans d'expérience pratique en déploiement de systèmes RAG et LLM engineering. Spécialisé dans la mise en production de solutions d'IA générative enterprise-grade : RAG multi-modal, Text-to-SQL, chatbots intelligents. Track record : 5 000 documents indexés en production, 3 projets RAG déployés. Background solide data engineering (35 ans) garantissant architectures scalables et industrialisables.
+*(Used for: Bruno_Seznec_CV_V1_IAGenerative_FR.tex)*
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Data Architecture / Data Catalog / Data Governance roles:**
+> Architecte Data & Data Catalog — depuis 2014, aguerri à la data science et à la data engineering, je peux gérer la compréhension et la qualité de la donnée à travers un catalogue, puis dialoguer avec les équipes métiers et les data scientists.
+*(Used for: ArchitecteData-BrunoSeznec-2026.pdf)*
+
+**For Data Engineering / Data Engineer roles:**
+> Architecte Data & Data Engineer — depuis 2014, aguerri à la data science et à la data engineering, je peux gérer la compréhension, l'ingestion et la qualité de la donnée à travers un catalogue ou sans, puis dialoguer avec les équipes métiers et les data scientists.
+*(Used for: ArchitecteData-BrunoSeznec-DataEngineer.pdf)*
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
