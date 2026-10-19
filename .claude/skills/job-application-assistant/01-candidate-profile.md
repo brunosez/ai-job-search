@@ -9,9 +9,9 @@
 - **GitHub:** https://github.com/brunosez
 - **HuggingFace:** https://huggingface.co/bruno16
 - **Languages:** French (native), English (B1-B2, professional working), German (limited working)
-- **Status:** Independent consultant, available immediately
-- **Rate:** TJM 600–800€
-- **Constraints:** Two bases — Brittany and Île-de-France; remote-first; France-wide mobility
+- **Status:** Independent consultant, available immediately; open to CDI/CDD roles as of 2026-07-20 (previously independent-missions-only)
+- **Rate:** TJM 600–800€ (for independent missions)
+- **Constraints:** Two bases — Brittany and Île-de-France; partial remote acceptable (does not require full remote, but rules out 100% on-site with zero telework); France-wide mobility
 
 ## Education
 
@@ -24,6 +24,11 @@
 | Agrégé de Mathématiques | (Former) | — | Prestigious national competitive teaching qualification |
 
 ## Professional Experience
+
+### Formateur — Web Sémantique & Graph RAG — IFREMER (Apr 2026)
+Brest
+- 3-day course (cours + TP): semantic web foundations, Graph RAG architecture, knowledge graphs, RDF/SPARQL, ontologies
+- Course materials published: https://github.com/brunosez/websem-plb-2026
 
 ### RAG Expert (Consultant IA) — Banque d'Investissement (Sep 2025 – Dec 2025)
 Paris, France
@@ -192,8 +197,9 @@ Paris
 - **Conferences:** ICML 2015 (Lille), NIPS 2015 & 2018 (Montréal), ICCV 2023 (Paris), DevFest Paris (2018, 2020, 2023), Salon Big Data & IA 2021 (speaker)
 
 ## Publications
-1. "Concevoir un site web" — course given at IGPDE (Ministère de l'Économie)
-2. "Sensibilisation au web sémantique" — course given at IGPDE
+1. "Web Sémantique & Graph RAG" — 3-day course materials for IFREMER (Apr 2026): https://github.com/brunosez/websem-plb-2026
+2. "Concevoir un site web" — course given at IGPDE (Ministère de l'Économie)
+3. "Sensibilisation au web sémantique" — course given at IGPDE
 
 ## Awards & Highlights
 - **Speaker** — Salon Big Data & IA 2021, Paris

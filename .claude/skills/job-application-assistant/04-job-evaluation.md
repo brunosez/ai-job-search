@@ -74,7 +74,7 @@ Does this role advance career goals and contain tasks that energize?
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: Independent consultant with TJM 600–800€; target missions should meet or exceed this rate
-- **Flexibility**: Remote-first strongly preferred; two bases (Brittany and Île-de-France) plus Nantes (commute range of the Brittany base); occasional on-site acceptable
+- **Flexibility**: Partial remote acceptable (full remote not required); two bases (Brittany and Île-de-France) plus Nantes (commute range of the Brittany base); open to CDI/CDD as well as independent missions as of 2026-07-20, provided the role isn't 100% on-site with zero telework
 - **Professional development**: Prioritise missions that add to the GenAI / RAG track record or deepen Knowledge Graph / Semantic Web expertise
 
 ### 6. Salary Benchmark (Optional)

@@ -108,7 +108,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Deal-breakers
 - Requires relocation (no move outside Bretagne/Île-de-France/Nantes footprint)
-- CDI requiring full-time on-site attendance (remote-first is a firm preference)
+- CDI/CDD with zero remote flexibility (100% on-site, no telework at all) — partial remote is acceptable; open to CDI/CDD roles as of 2026-07-20 (previously independent-missions-only)
 - Rate below 600€ TJM for independent missions
 - Roles requiring fluent/bilingual English as the primary daily working language
 - Pure maintenance/support roles with no development, POC, or knowledge-transfer component
