@@ -24,70 +24,70 @@ Bruno is based in France (Bretagne + Île-de-France). Searches target the French
 ## France Travail CLI Queries
 
 Tool: `python .agents/skills/francetravail-search/search.py`
-Flags: `--experience S` (senior), `--limit 50`
+Flags: `--remote [1|2]` (télétravail possible / total — filtre sur le texte de l'offre), `--limit 50`. Ne pas utiliser `--experience S` : l'API le traduit en « plus de 3 ans », champ rarement renseigné, qui élimine ~90 % des offres (42 → 3 sur « IA générative »).
 
 ### Priority 1: Generative AI / RAG / LLM Engineering
 
 ```bash
 # Remote-first (all France)
-python .agents/skills/francetravail-search/search.py --keywords "IA générative" --remote 2 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "RAG langchain" --remote 2 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "LLM engineer" --remote 2 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "IA générative" --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "RAG langchain" --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "LLM engineer" --remote 1 --limit 50
 
 # Île-de-France (dept 75, radius 30km, télétravail possible)
-python .agents/skills/francetravail-search/search.py --keywords "IA générative" --location "75" --radius 30 --remote 1 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "LLM RAG" --location "75" --radius 30 --remote 1 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "IA générative" --location "75" --radius 30 --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "LLM RAG" --location "75" --radius 30 --remote 1 --limit 50
 
 # Morbihan / Bretagne (dept 56, radius 30km)
-python .agents/skills/francetravail-search/search.py --keywords "IA générative" --location "56" --radius 30 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "56" --radius 30 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "IA générative" --location "56" --radius 30 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "56" --radius 30 --limit 50
 
 # Nantes / Loire-Atlantique (dept 44, radius 30km)
-python .agents/skills/francetravail-search/search.py --keywords "IA générative" --location "44" --radius 30 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "44" --radius 30 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "IA générative" --location "44" --radius 30 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "44" --radius 30 --limit 50
 ```
 
 ### Priority 2: Data Quality & Governance / Data Catalog
 
 ```bash
 # Remote-first
-python .agents/skills/francetravail-search/search.py --keywords "data quality" --remote 2 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "data governance" --remote 2 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "data catalog OpenMetadata" --remote 2 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data quality" --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data governance" --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data catalog OpenMetadata" --remote 1 --limit 50
 
 # Île-de-France
-python .agents/skills/francetravail-search/search.py --keywords "data quality python" --location "75" --radius 30 --remote 1 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "data governance consultant" --location "75" --radius 30 --remote 1 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data quality python" --location "75" --radius 30 --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data governance consultant" --location "75" --radius 30 --remote 1 --limit 50
 ```
 
 ### Priority 3: Data Engineering / MLOps
 
 ```bash
 # Remote-first
-python .agents/skills/francetravail-search/search.py --keywords "data engineer python spark" --remote 2 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "MLOps kubernetes" --remote 2 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "data engineer airflow" --remote 2 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data engineer python spark" --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "MLOps kubernetes" --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data engineer airflow" --remote 1 --limit 50
 
 # Île-de-France
-python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "75" --radius 30 --remote 1 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "MLOps" --location "75" --radius 30 --remote 1 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "75" --radius 30 --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "MLOps" --location "75" --radius 30 --remote 1 --limit 50
 
 # Morbihan
-python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "56" --radius 30 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "data engineer" --location "56" --radius 30 --limit 50
 
 # Nantes
-python .agents/skills/francetravail-search/search.py --keywords "MLOps" --location "44" --radius 30 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "MLOps" --location "44" --radius 30 --limit 50
 ```
 
 ### Priority 4: Adjacent / Broader Technical Consulting
 
 ```bash
 # Remote-first
-python .agents/skills/francetravail-search/search.py --keywords "architecte data" --remote 2 --experience S --limit 50
-python .agents/skills/francetravail-search/search.py --keywords "consultant IA" --remote 2 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "architecte data" --remote 1 --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "consultant IA" --remote 1 --limit 50
 
 # Île-de-France
-python .agents/skills/francetravail-search/search.py --keywords "architecte data consultant" --location "75" --radius 30 --remote 1 --experience S --limit 50
+python .agents/skills/francetravail-search/search.py --keywords "architecte data consultant" --location "75" --radius 30 --remote 1 --limit 50
 ```
 
 ## Supplementary Web Searches (apec.fr, LinkedIn, malt.fr)

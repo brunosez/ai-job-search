@@ -10,6 +10,28 @@ SCOPE = "api_offresdemploiv2 o2dsoffre"
 CACHE_FILE = Path(__file__).parent / ".ft_token_cache.json"
 
 
+SKILL_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SKILL_DIR.parents[2]  # .agents/skills/francetravail-search -> racine du repo
+
+
+def _load_dotenv():
+    """Charge le .env de la racine du repo (repli : celui du skill), sans ecraser l'environnement."""
+    for env_file in (REPO_ROOT / ".env", SKILL_DIR / ".env"):
+        if env_file.is_file():
+            for line in env_file.read_text(encoding="utf-8-sig").splitlines():
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, value = line.split("=", 1)
+                key = key.strip().removeprefix("export ").strip()
+                value = value.strip().strip('"').strip("'")
+                os.environ.setdefault(key, value)
+            return
+
+
+_load_dotenv()
+
+
 def _load_cache():
     if CACHE_FILE.exists():
         try:

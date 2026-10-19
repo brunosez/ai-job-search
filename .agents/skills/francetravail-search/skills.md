@@ -13,8 +13,8 @@ python search.py --keywords "data engineer" --location "35000" --radius 30 --con
 - --radius : rayon de recherche en km autour de la localisation (défaut: 10)
 - --contract : type de contrat (CDI, CDD, MIS, SAI, etc.)
 - --limit : nombre max d'offres à récupérer (défaut: 50, max par page: 150)
-- --experience : niveau d'expérience (D=débutant, E=expérimenté, S=senior)
-- --remote : filtre télétravail (1=possible, 2=total)
+- --experience : niveau d'expérience (D=débutant, E=expérimenté, S=senior → codes API 1/2/3 ; un code 0-4 est aussi accepté). Attention : S (« plus de 3 ans ») est rarement renseigné par les recruteurs et élimine la plupart des offres.
+- --remote : filtre télétravail, `--remote` ou `--remote 1` = possible, `--remote 2` = total. L'API n'ayant pas de paramètre télétravail, le filtre porte sur le titre et la description de l'offre (mots-clés télétravail / remote / hybride / distanciel).
 
 ## Sortie
 
@@ -23,7 +23,7 @@ id, title, company, location, contract_type, description, url, date_creation, sa
 
 ## Prérequis
 
-Variables d'environnement dans .env à la racine du repo :
+Variables d'environnement dans .env à la racine du repo (chargé automatiquement par auth.py ; repli sur un .env dans ce dossier) :
 
 FT_CLIENT_ID=xxx
 FT_CLIENT_SECRET=xxx
